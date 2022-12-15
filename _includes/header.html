@@ -23,6 +23,7 @@
 					
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
+						<a>On top of menu list, between the A bracketores</a>
 						<a href="{{ item.url | relative_url }}" class="menu__list__item__link">{{ item.title }}</a>
 					</li>
 					{% endfor %}
@@ -32,6 +33,9 @@
 		</div>
 
 		<div class="projects-menu">
+			
+			<a>Between the A bracketores</a>
+			
 			<ul class="menu__list">
 				{% for project in site.projects reversed %}
 				<li class="menu__list__item">
