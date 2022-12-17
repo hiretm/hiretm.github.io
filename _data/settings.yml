@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: Index
-  site_tagline: A minimal, fixed sidebar grid portfolio Jekyll theme.
+  site_title: Tomislav Mavrovic
+  site_tagline: UX / UI Product Designer
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -9,14 +9,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: ''
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'About'
+    - title: 'My resume'
       url: '/about'
-    - title: 'Contact'
-      url: '/contact'
 
 grid_settings:
   overlay_opacity: 0.8
@@ -142,10 +138,10 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   h6:
-    small_size: 17
-    medium_size: 20
-    large_size: 20
-    weight: 500
+    small_size: 14
+    medium_size: 16
+    large_size: 16
+    weight: 300
     letter_spacing: 0
     line_height: 1.6
   p:
