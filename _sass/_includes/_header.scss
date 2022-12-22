@@ -76,12 +76,12 @@
 }
 
 .header__tagline {
-	margin-top: 20px;
+	margin-top: 30px;
 	font-size: $sitetagline-small;
 	font-weight: $sitetagline-weight;
 	letter-spacing: $sitetagline-spacing;
 	line-height: $sitetagline-lineheight;
-	color: $text-medium-color;
+	color: $text-dark-color;
 
 	@include mq(tabletp) {
 		font-size: $sitetagline-medium;
