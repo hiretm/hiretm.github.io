@@ -16,6 +16,19 @@
 		
 		<h6>Experienced product designer with proficiency in UX architecture and UI design solutions for all digital platforms and media. Design thinking and pragmatic when problem-solving. Worked with established EU startups during the past decade, both on-site and remotely. Based in Rijeka, Croatia.</h6>
 
+		<div class="projects-menu">
+			
+			<ul class="menu__list">
+				<h6>• Selected authored projects</h6>
+				{% for project in site.projects reversed %}
+				<li class="menu__list__item">
+					<a href="{{ project.url | relative_url }}" class="menu__list__item__link">{{ project.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		
+
 		<div class="menu">
 			<div class="menu__toggle js-menu-toggle">
 				<div class="menu__toggle__icon"><span></span></div>
@@ -31,19 +44,8 @@
 					
 				</ul>
 			</div>
-		</div>	
-
-		<div class="projects-menu">
-			
-			<ul class="menu__list">
-				<h6>• Selected authored projects</h6>
-				{% for project in site.projects reversed %}
-				<li class="menu__list__item">
-					<a href="{{ project.url | relative_url }}" class="menu__list__item__link">{{ project.title }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div>
+		</div>			
+		
 
 		<div class="header__lower">
 
