@@ -11,7 +11,7 @@ menu_settings:
   menu_items:
     - title: ''
       url: '/'
-    - title: '➜ My resume'
+    - title: '• My resume'
       url: 'https://tomislavmavrovic.com/cv_tm.pdf'
 
 grid_settings:
