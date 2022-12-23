@@ -12,7 +12,7 @@ menu_settings:
     - title: ''
       url: '/'
     - title: '➜ My resume'
-      url: '/about'
+      url: 'https://tomislavmavrovic.com/cv_tm.pdf'
 
 grid_settings:
   overlay_opacity: 0.8
