@@ -11,7 +11,7 @@ menu_settings:
   menu_items:
     - title: ''
       url: '/'
-    - title: 'My resume'
+    - title: '➜ My resume'
       url: '/about'
 
 grid_settings:
