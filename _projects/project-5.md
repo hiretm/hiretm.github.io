@@ -3,7 +3,7 @@ title: 'Medsafe'
 subtitle: 'eHealth startup'
 date: 2022-12-21 11:08:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/pr-1.png'
+featured_image: '/images/demo/pr1show.png'
 ---
 
 ![](/images/demo/pr-1.png)
