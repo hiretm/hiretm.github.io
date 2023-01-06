@@ -20,6 +20,22 @@
 	width: 50%;
 }
 
+// - - - - - - - - - - - - - - - - - - ADDON START
+
+@include mq(tabletl) {
+	width: 100%;
+}
+
+@include mq(tabletp) {
+	width: 100%;
+}
+
+@include mq(phonel) {
+	width: 100%;
+}
+
+// - - - - - - - - - - - - - - - - - - ADDON END
+
 .portfolio-item__link {
 	position: relative;
 	display: block;
