@@ -60,8 +60,8 @@ color_settings:
   text_light_color: '#ABB7B7'
   accent_color: '#eeeeee'
   border_color: '#dddddd'
-  overlay_background_color: '#FF4D00'
-  overlay_text_color: '#ffffff'
+  overlay_background_color: '#ffffff'
+  overlay_text_color: '#FF4D00'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 
