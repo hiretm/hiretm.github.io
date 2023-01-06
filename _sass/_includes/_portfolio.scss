@@ -19,25 +19,21 @@
 	float: left;
 	width: 50%;
 		
-// - - - - - - - - - - - - - - - - - - ADDON START
-
-@include mq(laptop) {
+	@include mq(laptop) {
 	width: 100%;
-}	
+	}	
 
-@include mq(tabletl) {
+	@include mq(tabletl) {
 	width: 100%;
-}
+	}
 
-@include mq(tabletp) {
+	@include mq(tabletp) {
 	width: 100%;
-}
+	}
 
-@include mq(phonel) {
+	@include mq(phonel) {
 	width: 100%;
-}
-
-// - - - - - - - - - - - - - - - - - - ADDON END	
+	}	
 			
 }
 
