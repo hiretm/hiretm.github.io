@@ -21,6 +21,10 @@
 		
 // - - - - - - - - - - - - - - - - - - ADDON START
 
+@include mq(laptop) {
+	width: 100%;
+}	
+
 @include mq(tabletl) {
 	width: 100%;
 }
